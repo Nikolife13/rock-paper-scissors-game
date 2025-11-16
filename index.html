@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Rock Paper Scissors</h1>
+
+      <div class="scores">
+        <div>Player 1: <span id="p1score">0</span></div>
+        <div>Player 2: <span id="p2score">0</span></div>
+        <div>Ties: <span id="tiescore">0</span></div>
+      </div>
+
+      <div class="players">
+        <div class="player" id="player1">
+          <h2>Player 1</h2>
+          <div class="choice-image" id="p1image">👤</div>
+          <div class="win-text" id="p1wintext"></div>
+          <div class="buttons">
+            <button onclick="selectChoice(1, 'rock')">✊ Rock</button>
+            <button onclick="selectChoice(1, 'paper')">✋ Paper</button>
+            <button onclick="selectChoice(1, 'scissors')">✌️ Scissors</button>
+          </div>
+          <div>Selected: <span id="p1choice">-</span></div>
+        </div>
+
+        <div class="player" id="player2">
+          <h2>Player 2</h2>
+          <div class="choice-image" id="p2image">👤</div>
+          <div class="win-text" id="p2wintext"></div>
+          <div class="buttons">
+            <button onclick="selectChoice(2, 'rock')">✊ Rock</button>
+            <button onclick="selectChoice(2, 'paper')">✋ Paper</button>
+            <button onclick="selectChoice(2, 'scissors')">✌️ Scissors</button>
+          </div>
+          <div>Selected: <span id="p2choice">-</span></div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button onclick="playGame()" id="playbtn">Play Round</button>
+        <button onclick="resetGame()">Reset Game</button>
+      </div>
+
+      <div id="result"></div>
+
+      <div class="rules">
+        <h3>Rules:</h3>
+        <p>✊ Rock beats ✌️ Scissors</p>
+        <p>✌️ Scissors beats ✋ Paper</p>
+        <p>✋ Paper beats ✊ Rock</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
