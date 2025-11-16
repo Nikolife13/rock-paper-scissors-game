@@ -24,7 +24,7 @@ A simple two-player Rock Paper Scissors game built with HTML, CSS and JavaScript
 - ## Technologies Used
 - HTML5
 - CSS3  
-- JavaScript (Vanilla JS)
+- JavaScript 
 
 ## How to Run
 1. Download all project files
