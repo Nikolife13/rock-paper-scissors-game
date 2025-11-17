@@ -28,7 +28,7 @@ A simple two-player Rock Paper Scissors game built with HTML, CSS and JavaScript
 
 ## How to Run
 1. Download all project files
-2. Open `index.html` in your web browser
+2. Open 'index.html' in your web browser
 3. Enjoy the game!
 
 ## Live Demo
